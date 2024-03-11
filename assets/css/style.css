@@ -1,11 +1,21 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap')
+/* asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* General project styles */
+    color: #3a3a3a;
+}
 header {background-color: chocolate;
 }
 section {
     background-color: aquamarine;
 }
 footer {background-color: bisque;}
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
