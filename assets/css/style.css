@@ -1,0 +1,11 @@
+header {background-color: chocolate;
+}
+section {
+    background-color: aquamarine;
+}
+footer {background-color: bisque;}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
