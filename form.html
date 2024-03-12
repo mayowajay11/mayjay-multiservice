@@ -14,7 +14,7 @@
 
 </head>
 <body>
-    <header>
+    <header id="form-color">
     <h1>Welcome to Order section</h1>
     <p>You can request for your drinks to be deliver to your home address</p>
 </header>
@@ -24,7 +24,8 @@
             <a href="index.html#contact">Contact</a>
             <a href="form.html">Order Now</a>
         </nav>
-            <form action="https://formdump.codeinstitute.net" method="POST">
+        <div>
+            <form action="https://formdump.codeinstitute.net" method="POST" class="form-page">
                 <fieldset>
                         <legend>Order Now</legend>
                         <div>
@@ -40,7 +41,9 @@
                 <input id="quantity-field" type="number" name="number" placeholder="quantity number" required>
             </div>
             </fieldset>
-            <input type="submit" value="Place Your Order">
+            <div>
+            <input type="submit" value="Place Your Order" class="big-text">
+        </div>
             </form>
         </body>
         </html>
